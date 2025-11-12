@@ -3,7 +3,7 @@ import main
 from unittest.mock import patch, MagicMock
 
 @patch('datetime.datetime')
-def test_greet_hello(mock_datetime):
+def test_greet_hello(MockDateTime):
     # Create a mock object for the return value of datetime.datetime.now()
     mock_now = MagicMock()
     
